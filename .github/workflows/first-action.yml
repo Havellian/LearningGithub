@@ -5,8 +5,8 @@ jobs:
       runs-on: ubunto-latest
       steps:
         - name: Print HelloWorld
-        - run: echo "Hello World"
+          run: echo "Hello World"
         - name: Print goodbye
-        - run: echo "Good Bye"
+          run: echo "Good Bye"
         
       
