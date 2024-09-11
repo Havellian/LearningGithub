@@ -6,3 +6,5 @@ jobs:
     steps:
       - name: Checkout step
         uses: actions/checkout@v4.1.7
+        with:
+          node-version: 18
